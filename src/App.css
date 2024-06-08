@@ -1,0 +1,19 @@
+.usercard:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.logoutIcon:hover {
+    color: #d60f0f;
+    cursor: pointer;
+}
+
+.sendBtn {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.sendBtn:hover {
+    color: #0eae3d;
+    cursor: pointer;
+}
