@@ -24,7 +24,7 @@ const ChatScreen = () => {
 
 	const [sendMessage] = useMutation(SEND_MESSAGE)
 
-	const {data: subData } = useSubscription(MSG_SUB, {
+	useSubscription(MSG_SUB, {
 		onData({data: {data}}) {
 			setMessages((prev) => [...prev, data.messageAdded])
 			setText("")
